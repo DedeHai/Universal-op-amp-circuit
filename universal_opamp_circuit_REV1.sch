@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6676,6 +6676,7 @@ Winterthur</text>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <junction x="35.56" y="38.1"/>
+<junction x="44.45" y="38.1"/>
 </segment>
 <segment>
 <pinref part="SJ1" gate="1" pin="2"/>
@@ -6731,6 +6732,8 @@ Winterthur</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="104.14" x2="43.18" y2="102.87" width="0.1524" layer="91"/>
+<junction x="43.18" y="104.14"/>
+<junction x="46.99" y="123.19"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -6745,6 +6748,8 @@ Winterthur</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="64.77" y1="101.6" x2="77.47" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="PAD5" gate="1" pin="P"/>
+<junction x="64.77" y="115.57"/>
+<junction x="64.77" y="101.6"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -6774,6 +6779,7 @@ Winterthur</text>
 <wire x1="69.85" y1="50.8" x2="69.85" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="45.72" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="50.8" x2="69.85" y2="50.8" width="0.1524" layer="91"/>
+<junction x="69.85" y="50.8"/>
 </segment>
 </net>
 <net name="VSS" class="0">
@@ -6823,6 +6829,9 @@ Winterthur</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="95.25" x2="43.18" y2="92.71" width="0.1524" layer="91"/>
+<junction x="46.99" y="92.71"/>
+<junction x="43.18" y="92.71"/>
+<junction x="46.99" y="86.36"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6843,6 +6852,9 @@ Winterthur</text>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="105.41" x2="119.38" y2="102.87" width="0.1524" layer="91"/>
+<junction x="123.19" y="124.46"/>
+<junction x="123.19" y="105.41"/>
+<junction x="119.38" y="105.41"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6857,6 +6869,8 @@ Winterthur</text>
 <wire x1="140.97" y1="102.87" x2="161.29" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="PAD12" gate="1" pin="P"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
+<junction x="140.97" y="116.84"/>
+<junction x="140.97" y="102.87"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6873,6 +6887,8 @@ Winterthur</text>
 <pinref part="IC1" gate="B" pin="+IN"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="95.25" x2="119.38" y2="92.71" width="0.1524" layer="91"/>
+<junction x="123.19" y="92.71"/>
+<junction x="123.19" y="86.36"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6946,6 +6962,7 @@ Winterthur</text>
 <wire x1="119.38" y1="52.07" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="IN+"/>
 <junction x="123.19" y="52.07"/>
+<junction x="119.38" y="52.07"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -6960,6 +6977,8 @@ Winterthur</text>
 <wire x1="137.16" y1="27.94" x2="148.59" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="148.59" y1="27.94" x2="148.59" y2="34.29" width="0.1524" layer="91"/>
 <pinref part="PAD20" gate="1" pin="P"/>
+<junction x="148.59" y="34.29"/>
+<junction x="148.59" y="49.53"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -6980,6 +6999,9 @@ Winterthur</text>
 <wire x1="123.19" y1="34.29" x2="128.27" y2="34.29" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="123.19" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
+<junction x="119.38" y="40.64"/>
+<junction x="123.19" y="40.64"/>
+<junction x="123.19" y="34.29"/>
 </segment>
 </net>
 <net name="N$18" class="0">
